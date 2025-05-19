@@ -1,0 +1,5 @@
+ let corFundo = lerpCor(
+    color(217, 112, 26),
+    color(219, 239, 208),
+    map(totalArvore, 0, 100, 0, 1)
+  );
